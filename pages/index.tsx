@@ -11,8 +11,20 @@ const Home: NextPage = () => {
 
 			<main>
 				<h1>Welcome to Postie.</h1>
-
 				<p>let&lsquo;s get posting</p>
+
+				<hr />
+
+				<h2>log in</h2>
+
+				<form action="/api/login/phone" method="post">
+					<label>
+						<p>phone number</p>
+						<input type="tel" name="phone" />
+					</label>
+
+					<button type="submit">go</button>
+				</form>
 			</main>
 		</div>
 	);
