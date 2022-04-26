@@ -16,7 +16,7 @@ if you answered yes to any of these, then you already are trusting a centralized
 
 ### promises
 
-- we will keep the core platform open-source
+- we will keep the core platform open-source (see [license])
 - nobody will ever need to pay to access core features of our hosted platform
 - there will be full transparency for user data handling
 - a core focus will always remain on user experience and ease-of-use.
@@ -28,4 +28,11 @@ tbd...but it'll be reasonable. **promise.**
 
 ## license
 
-tbd as well. it'll probably not be incredibly permissive, in the interest of being shamelessly centralized.
+postie is licensed under AGPL version 3.0 for the following reasons:
+
+- you cannot run a clone of postie (we are **shamelessly centralized**).
+- postie will never go closed-source.
+
+read the full license terms in the `LICENSE` file.
+
+[license]: #license
